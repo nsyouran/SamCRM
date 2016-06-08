@@ -1,0 +1,737 @@
+[ 2016-02-27T15:44:49+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-02-27T15:44:49+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-02-27T15:45:04+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-02-27T15:45:05+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-02-27T15:45:05+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-02-27T15:45:06+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-02-27T15:45:06+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-02-27T15:45:07+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-02-27T15:45:09+08:00 ] ::1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `user` WHERE ( username='user' and password='63a9f0ea7bb98050796b649e85481845' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-02-27T15:45:12+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-02-27T15:45:19+08:00 ] ::1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `user` WHERE ( username='admin' and password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-02-27T15:45:19+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-02-27T15:45:28+08:00 ] ::1 /index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-02-27T15:45:28+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2016-02-27T15:45:32+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-02-27T15:45:32+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-02-27T15:45:35+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-02-27T15:45:35+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-02-27T15:46:35+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\6a992d5529f459a44fee58c733255e86.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\6a992d5529f459a44fee58c733255e86.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\6a992d5529f459a44fee58c733255e86.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\6a992d5529f459a44fee58c733255e86.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\6a992d5529f459a44fee58c733255e86.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-02-27T15:47:15+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-02-27T15:50:18+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: login C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-02-27T15:50:21+08:00 ] ::1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user` WHERE ( username='user' and password='63a9f0ea7bb98050796b649e85481845' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-02-27T15:50:24+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: login C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-02-27T15:50:30+08:00 ] ::1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user` WHERE ( username='admin' and password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-27T15:50:30+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: login C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-02-27T15:53:11+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-02-27T15:53:14+08:00 ] ::1 /index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-02-27T15:53:14+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: login C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-02-27T15:53:18+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: login C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-02-27T15:53:18+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: login C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-02-27T15:53:18+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: login C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-02-27T15:53:18+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: login C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-02-27T15:53:18+08:00 ] ::1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Users\Administrator\Desktop\MCMS\Index\Home\Controller\LoginController.class.php on line 6 and defined C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Users\Administrator\Desktop\MCMS\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: login C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\8568c9968b5b48cb7715112de401a702.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-02-27T15:53:25+08:00 ] ::1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `user` WHERE ( username='admin' and password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-02-27T15:53:25+08:00 ] ::1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 58 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 59 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 60 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 61 行.
+NOTIC: [8] Undefined variable: pg C:\Users\Administrator\Desktop\MCMS\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
