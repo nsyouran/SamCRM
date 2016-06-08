@@ -1,4 +1,4 @@
 *.chw
 .idea
-.idea
 *.log
+ /Index/Runtime/Cache
