@@ -4,21 +4,21 @@
 	<meta charset="UTF-8">
 	<title>Login-SamCRM</title>
 
-	<link rel="stylesheet" href="/samcrm/Public/bs/css/bootstrap.css">
+	<link rel="stylesheet" href="/SamCRM/Public/bs/css/bootstrap.css">
 
-	<script src="/samcrm/Public/js/jquery.min.js"></script>
-	<script src="/samcrm/Public/bs/js/bootstrap.min.js"></script>
-	<script src="/samcrm/Public/js/holder.min.js"></script>
+	<script src="/SamCRM/Public/js/jquery.min.js"></script>
+	<script src="/SamCRM/Public/bs/js/bootstrap.min.js"></script>
+	<script src="/SamCRM/Public/js/holder.min.js"></script>
 </head>
 
-<body style="background: url(/samcrm/Public/img/home/login_bg1.jpg)">
+<body style="background: url(/SamCRM/Public/img/home/login_bg1.jpg)">
 	<div style="width: 600px;margin:0 auto;margin-top: 150px;text-align: center;">
 		<div class="row">			
 			<div class="">
 				<img src="holder.js/100x100?text=Logo&size=20&theme=vine" class="img-circle" style="margin-bottom: 20px;">
 			</div>
 		</div>
-		<form class="form-horizontal" id="loginForm" action="/samcrm/index.php/Home/Login/login" method="post">
+		<form class="form-horizontal" id="loginForm" action="/SamCRM/index.php/Home/Login/login" method="post">
 			<div class="form-group">
 				<label for="username" class="col-sm-3 control-label" style="color: #ccc">用户名</label>
 				<div class="col-sm-6">

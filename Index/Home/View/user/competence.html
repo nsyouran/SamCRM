@@ -1,6 +1,7 @@
+
 <div class="top position" style="height: 30px; border-bottom: 1px solid #ccc;">
 	<img src="__PUBLIC__/img/home/img/22.png" style="height: 20px;">
-	<span style="vertical-align: middle; margin: 0 10px;">首页 > 客户管理 > 全部客户</span>
+	<span style="vertical-align: middle; margin: 0 10px;">首页 > 用户管理 > 权限管理</span>
 </div>
 
 <div id="table" style="position: absolute; top: 50px; bottom: 60px; left: 10px; right: 10px; overflow: auto">
@@ -9,21 +10,27 @@
 		<tr style="background: #333;color: #eee; font-weight: bold">
 			<td style="width: 20px;"><input type="checkbox"></td>
 			<td style="width: 2em;">#</td>
-			<td style="min-width: 15em;">客户名称</td>
-			<td style="width: 8em;">联系人</td>
-			<td style="width: 10em;">联系电话</td>
-			<td style="min-width: 20em;">地址</td>
-			<td style="width: 11em">最后更新</td>
+			<td style="width: 5em;">权限分类</td>
+			<td style="width: 5em;">权限名称</td>
+			<td style="width: 10em;">权限说明</td>
+			<td style="width: 3em">状态</td>
+			<td style="width: 11em;">最后更新</td>
 			<td style="width: 60px;">操作</td>
 		</tr>
 		<volist name='list' id='l'>
 		<tr>
 			<td><input type="checkbox"></td>
 			<td>{$l.id}</td>
-			<td><a href="#" class="clientname">{$l.clientname}</a></td>
-			<td>{$l.contact}</td>
-			<td>{$l.tel}</td>
-			<td>{$l.addr}</td>
+			<td>{$l.group}</td>
+			<td>{$l.name}</td>
+			<td>{$l.description}</td>
+			<td>
+				<if condition="$l.state eq 0">
+					<img src="__PUBLIC__/img/home/yes.png" alt="">
+				<else />
+					<img src="__PUBLIC__/img/home/no.png" alt="">
+				</if>
+			</td>
 			<td>{$l.last_time}</td>
 			<td>
 				<a href=""><img src="__PUBLIC__/img/home/edit.png" class="edit" style="margin-right: 5px;"></a>
@@ -36,7 +43,7 @@
 </div>
 
 <div class="buttom" style="position: absolute; bottom: 0;left: 10px; right: 10px; border-top: 1px solid #ccc; padding: 8px 0;">
-	<button class="btn btn-sm btn-primary" onclick="window.location.href='__MODULE__/Client/add'">新增</button>
+	<button class="btn btn-sm btn-primary" onclick="window.location.href='__MODULE__/User/competence_add'">新增</button>
 	<button class="btn btn-sm btn-default">全选</button>
 	<button class="btn btn-sm btn-default">反选</button>
 	<button class="btn btn-sm btn-default">全不选</button>

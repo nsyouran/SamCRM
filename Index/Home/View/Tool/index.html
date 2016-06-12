@@ -1,21 +1,6 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Home-SamCRM</title>
 
-	<link rel="stylesheet" href="/SamCRM/Public/bs/css/bootstrap.css">
-
-	<script src="/SamCRM/Public/js/jquery.min.js"></script>
-	<script src="/SamCRM/Public/bs/js/bootstrap.min.js"></script>
-	<script src="/SamCRM/Public/js/holder.min.js"></script>
-	<script src="/SamCRM/Public/laydate/laydate.js"></script>
-</head>
-
-<body style="padding: 10px;">
-	
 <div class="top position" style="height: 30px; border-bottom: 1px solid #ccc;">
-	<img src="/SamCRM/Public/img/home/img/22.png" style="height: 20px;">
+	<img src="__PUBLIC__/img/home/img/22.png" style="height: 20px;">
 	<span style="vertical-align: middle; margin: 0 10px;">首页 > 工具管理 > 全部工具</span>
 </div>
 
@@ -32,30 +17,32 @@
 			<td style="width: 11em;">有效日期</td>
 			<td style="width: 60px;">操作</td>
 		</tr>
-		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$l): $mod = ($i % 2 );++$i;?><tr>
+		<volist name='list' id='l'>
+		<tr>
 			<td><input type="checkbox"></td>
-			<td><?php echo ($l["id"]); ?></td>
-			<td><a href="#" class="clientname"><?php echo ($l["toolname"]); ?></a></td>
-			<td><?php echo ($l["keeper"]); ?></td>
-			<td><?php echo ($l["position"]); ?></td>
-			<td><?php echo ($l["last_time"]); ?></td>
+			<td>{$l.id}</td>
+			<td><a href="#" class="clientname">{$l.toolname}</a></td>
+			<td>{$l.keeper}</td>
+			<td>{$l.position}</td>
+			<td>{$l.last_time}</td>
 			<td style="vertical-align: middle">
 				<div style="display: inline-block;width: 10px;height: 10px;border-radius: 5px;background: #d9534f"></div>
 				<div style="display: inline-block;width: 10px;height: 10px;border-radius: 5px;background: #f0ad4e"></div>
 				<div style="display: inline-block;width: 10px;height: 10px;border-radius: 5px;background: #5cb85c"></div>
-				<span style="vertical-align: middle"><?php echo ($l["valid_date"]); ?></span>
+				<span style="vertical-align: middle">{$l.valid_date}</span>
 			</td>
 			<td>
-				<a href=""><img src="/SamCRM/Public/img/home/edit.png" class="edit" style="margin-right: 5px;"></a>
-				<a href=""><img src="/SamCRM/Public/img/home/delete.png" class="del"></a>
+				<a href=""><img src="__PUBLIC__/img/home/edit.png" class="edit" style="margin-right: 5px;"></a>
+				<a href=""><img src="__PUBLIC__/img/home/delete.png" class="del"></a>
 			</td>
-		</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+		</tr>
+		</volist>
 	</table>
 
 </div>
 
 <div class="buttom" style="position: absolute; bottom: 0;left: 10px; right: 10px; border-top: 1px solid #ccc; padding: 8px 0;">
-	<button class="btn btn-sm btn-primary" onclick="window.location.href='/SamCRM/index.php/Home/Client/add'">新增</button>
+	<button class="btn btn-sm btn-primary" onclick="window.location.href='__MODULE__/Client/add'">新增</button>
 	<button class="btn btn-sm btn-default">全选</button>
 	<button class="btn btn-sm btn-default">反选</button>
 	<button class="btn btn-sm btn-default">全不选</button>
@@ -67,6 +54,3 @@
 	<span style="margin-left: 10px"> 1/2 </span>
 	<span>页</span>
 </div>
-
-</body>
-</html>
