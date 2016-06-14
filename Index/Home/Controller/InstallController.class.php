@@ -62,7 +62,9 @@ class InstallController extends Controller {
 					$i = $i.";";
 					//mysql_query($i) or die("+$i+".mysql_error());
 					if(!mysql_query($i)){ //执行SQL语句
-						$this->error('安装失败，请重试');
+						if(mysql_error() != "Query was empty"){
+							$this->error('安装失败，请重试');
+						}						
 					}
 				}
 			}
