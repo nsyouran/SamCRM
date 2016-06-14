@@ -45,27 +45,57 @@
 			</td>
 			<td><?php echo ($l["last_time"]); ?></td>
 			<td>
-				<a href=""><img src="/SamCRM/Public/img/home/edit.png" class="edit" style="margin-right: 5px;"></a>
-				<a href=""><img src="/SamCRM/Public/img/home/delete.png" class="del"></a>
+				<a href="/SamCRM/index.php/Home/User/competence_detail?id=<?php echo ($l["id"]); ?>" class="edit"><img src="/SamCRM/Public/img/home/edit.png" style="margin-right: 5px;"></a>
+				<a href="/SamCRM/index.php/Home/User/competence_del?id=<?php echo ($l["id"]); ?>" class="del" onclick="if(confirm('确认删除？')){return true}else{return false}"><img src="/SamCRM/Public/img/home/delete.png"></a>
 			</td>
 		</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 	</table>
 
 </div>
 
+
 <div class="buttom" style="position: absolute; bottom: 0;left: 10px; right: 10px; border-top: 1px solid #ccc; padding: 8px 0;">
-	<button class="btn btn-sm btn-primary" onclick="window.location.href='/SamCRM/index.php/Home/User/competence_add'">新增</button>
-	<button class="btn btn-sm btn-default">全选</button>
-	<button class="btn btn-sm btn-default">反选</button>
-	<button class="btn btn-sm btn-default">全不选</button>
+	<button class="btn btn-sm btn-primary" onclick="window.location.href='/SamCRM/index.php/Home/User/group_add'">新增</button>
+	<button class="btn btn-sm btn-default" id="check_all">全选</button>
+	<button class="btn btn-sm btn-default" id="check_reverse">反选</button>
+	<button class="btn btn-sm btn-default" id="check_none">全不选</button>
 	<span style="margin: 0 10px;">对选中行进行</span>
-	<button class="btn btn-sm btn-danger">删除</button>
+	<button class="btn btn-sm btn-danger" id="check_del">删除</button>
 	<span style="margin-left: 50px">共</span>
-	<span style="font-size: 20px;color: red;"> 5 </span>
+	<span style="font-size: 20px;color: red;"> <?php echo ($record); ?> </span>
 	<span>条记录</span>
-	<span style="margin-left: 10px"> 1/2 </span>
-	<span>页</span>
+	<!--<span style="margin-left: 10px"> 1/2 </span>-->
+	<!--<span>页</span>-->
 </div>
+
+<script>
+	$("#check_all").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			if(!$(ele).is(":checked")){
+				$(ele).click();
+			}
+		});
+	});
+	$("#check_none").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			if($(ele).is(":checked")){
+				$(ele).click();
+			}
+		});
+	});
+	$("#check_reverse").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			$(ele).click();
+		});
+	});
+	$("#check_del").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			if($(ele).is(":checked")){
+				$(ele).parent().parent().children().eq(7).children().eq(1).click();
+			}
+		});
+	});
+</script>
 
 </body>
 </html>

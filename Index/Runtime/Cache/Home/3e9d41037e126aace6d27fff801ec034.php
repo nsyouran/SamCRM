@@ -25,22 +25,26 @@
 		<tr style="background: #333;color: #eee; font-weight: bold">
 			<td style="width: 20px;"><input type="checkbox"></td>
 			<td style="width: 2em;">#</td>
-			<td style="width: 10em;">用户组名</td>
-			<td style="width: 5em;">用户组说明</td>
-			<td style="width: 11em">状态</td>
+			<td style="width: 5em;">用户组名</td>
+			<td style="width: 10em;">用户组说明</td>
+			<td style="width: 3em">状态</td>
 			<td style="width: 11em;">最后更新</td>
 			<td style="width: 60px;">操作</td>
 		</tr>
 		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$l): $mod = ($i % 2 );++$i;?><tr>
 			<td><input type="checkbox"></td>
 			<td><?php echo ($l["id"]); ?></td>
-			<td><a href="#"><?php echo ($l["name"]); ?></a></td>
+			<td><a href="/SamCRM/index.php/Home/User/group_detail?id=<?php echo ($l["id"]); ?>"><?php echo ($l["name"]); ?></a></td>
 			<td><?php echo ($l["description"]); ?></td>
-			<td><?php echo ($l["state"]); ?></td>
+			<td>
+				<?php if($l["state"] == 0): ?><img src="/SamCRM/Public/img/home/yes.png" alt="">
+					<?php else: ?>
+					<img src="/SamCRM/Public/img/home/no.png" alt=""><?php endif; ?>
+			</td>
 			<td><?php echo ($l["last_time"]); ?></td>
 			<td>
-				<a href=""><img src="/SamCRM/Public/img/home/edit.png" class="edit" style="margin-right: 5px;"></a>
-				<a href=""><img src="/SamCRM/Public/img/home/delete.png" class="del"></a>
+				<a href="/SamCRM/index.php/Home/User/group_detail?id=<?php echo ($l["id"]); ?>" class="edit" ><img src="/SamCRM/Public/img/home/edit.png" style="margin-right: 5px;"></a>
+				<a href="/SamCRM/index.php/Home/User/group_del?id=<?php echo ($l["id"]); ?>" class="del" onclick="if(confirm('确认删除？')){return true}else{return false}"><img src="/SamCRM/Public/img/home/delete.png"></a>
 			</td>
 		</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 	</table>
@@ -49,17 +53,46 @@
 
 <div class="buttom" style="position: absolute; bottom: 0;left: 10px; right: 10px; border-top: 1px solid #ccc; padding: 8px 0;">
 	<button class="btn btn-sm btn-primary" onclick="window.location.href='/SamCRM/index.php/Home/User/group_add'">新增</button>
-	<button class="btn btn-sm btn-default">全选</button>
-	<button class="btn btn-sm btn-default">反选</button>
-	<button class="btn btn-sm btn-default">全不选</button>
+	<button class="btn btn-sm btn-default" id="check_all">全选</button>
+	<button class="btn btn-sm btn-default" id="check_reverse">反选</button>
+	<button class="btn btn-sm btn-default" id="check_none">全不选</button>
 	<span style="margin: 0 10px;">对选中行进行</span>
-	<button class="btn btn-sm btn-danger">删除</button>
+	<button class="btn btn-sm btn-danger" id="check_del">删除</button>
 	<span style="margin-left: 50px">共</span>
-	<span style="font-size: 20px;color: red;"> 5 </span>
+	<span style="font-size: 20px;color: red;"> <?php echo ($record); ?> </span>
 	<span>条记录</span>
-	<span style="margin-left: 10px"> 1/2 </span>
-	<span>页</span>
+	<!--<span style="margin-left: 10px"> 1/2 </span>-->
+	<!--<span>页</span>-->
 </div>
+
+<script>
+	$("#check_all").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			if(!$(ele).is(":checked")){
+				$(ele).click();
+			}
+		});
+	});
+	$("#check_none").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			if($(ele).is(":checked")){
+				$(ele).click();
+			}
+		});
+	});
+	$("#check_reverse").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			$(ele).click();
+		});
+	});
+	$("#check_del").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			if($(ele).is(":checked")){
+				$(ele).parent().parent().children().eq(6).children().eq(1).click();
+			}
+		});
+	});
+</script>
 
 </body>
 </html>

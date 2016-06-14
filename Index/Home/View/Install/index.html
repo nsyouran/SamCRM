@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Install-SamCRM</title>
+
+    <link rel="stylesheet" href="__PUBLIC__/bs/css/bootstrap.css">
+
+    <script src="__PUBLIC__/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/bs/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/holder.min.js"></script>
+</head>
+
+<body style="background: url(__PUBLIC__/img/home/install_bg.jpg);">
+
+<div id="con1" style="width: 800px; margin: 100px auto; border: 1px solid #ccc; border-radius: 0 50px 0 50px;background: #eee; padding: 20px 60px;">
+    <h2 style="text-align: center;margin-bottom: 30px;">安装环境</h2>
+    <table class="table">
+        <tr>
+            <td>项目</td>
+            <td>SamCRM 所需配置</td>
+            <td>当前服务器</td>
+        </tr>
+        <tr>
+            <td>服务器操作系统</td>
+            <td>不限制</td>
+            <td>
+                <if condition="$info.PHP_OS_C eq 1">
+                    <img src="__PUBLIC__/img/home/yes.png" alt="">
+                <else />
+                    <img src="__PUBLIC__/img/home/no.png" alt="">
+                </if>                
+                {$info['PHP_OS']}
+            </td>
+        </tr>
+        <tr>
+            <td>PHP版本</td>
+            <td>5.3</td>
+            <td>
+                <if condition="$info.PHP_VERSION_C eq 1">
+                    <img src="__PUBLIC__/img/home/yes.png" alt="">
+                <else />
+                    <img src="__PUBLIC__/img/home/no.png" alt="">
+                </if>
+                {$info['PHP_VERSION']}
+            </td>
+        </tr>
+        <tr>
+            <td>Mysql支持</td>
+            <td>需要支持</td>
+            <td>
+                <if condition="$info.mysql_c eq 1">
+                    <img src="__PUBLIC__/img/home/yes.png" alt="">
+                <else />
+                    <img src="__PUBLIC__/img/home/no.png" alt="">
+                </if>
+                {$info['mysql']}
+            </td>
+        </tr>
+    </table>
+    <div style="text-align: center">
+        <if condition="$info.ok eq 1">
+            <a href="__MODULE__/Install/next" class="btn btn-default">下一步</a>
+            <else />
+            <a href="" class="btn btn-default" disabled="disable">下一步</a>
+        </if>
+    </div>
+</div>
+
+</body>
+
+</html>

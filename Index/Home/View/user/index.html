@@ -8,10 +8,11 @@
 
 	<table class="table table-striped table-hover" style="background: #eee">
 		<tr style="background: #333;color: #eee; font-weight: bold">
-			<td style="width: 20px;"><input type="checkbox"></td>
+			<td style="width: 20px;"><input type="checkbox" class="ck_f"></td>
 			<td style="width: 2em;">#</td>
 			<td style="width: 5em;">用户名</td>
 			<td style="width: 5em;">用户组</td>
+			<td style="width: 5em;">电话</td>
 			<td style="width: 10em;">Email</td>
 			<td style="width: 3em">状态</td>
 			<td style="width: 11em;">最后更新</td>
@@ -21,8 +22,9 @@
 		<tr>
 			<td><input type="checkbox"></td>
 			<td>{$l.id}</td>
-			<td><a href="#" class="clientname">{$l.username}</a></td>
-			<td>{$l.name}</td>
+			<td><a href="__MODULE__/User/index_detail?id={$l.id}" class="clientname">{$l.username}</a></td>
+			<td><a href="__MODULE__/User/group_detail?id={$l.groupid}">{$l.groupname}</a></td>
+			<td>{$l.tel}</td>
 			<td>{$l.email}</td>
 			<td>
 				<if condition="$l.state eq 0">
@@ -33,8 +35,8 @@
 			</td>
 			<td>{$l.last_time}</td>
 			<td>
-				<a href=""><img src="__PUBLIC__/img/home/edit.png" class="edit" style="margin-right: 5px;"></a>
-				<a href=""><img src="__PUBLIC__/img/home/delete.png" class="del"></a>
+				<a href="__MODULE__/User/user_detail?id={$l.id}" class="edit"><img src="__PUBLIC__/img/home/edit.png"  style="margin-right: 5px;"></a>
+				<a href="__MODULE__/User/user_del?id={$l.id}" class="del" onclick="if(confirm('确认删除？')){return true}else{return false}"><img src="__PUBLIC__/img/home/delete.png" ></a>
 			</td>
 		</tr>
 		</volist>
@@ -43,15 +45,44 @@
 </div>
 
 <div class="buttom" style="position: absolute; bottom: 0;left: 10px; right: 10px; border-top: 1px solid #ccc; padding: 8px 0;">
-	<button class="btn btn-sm btn-primary" onclick="window.location.href='__MODULE__/User/add'">新增</button>
-	<button class="btn btn-sm btn-default">全选</button>
-	<button class="btn btn-sm btn-default">反选</button>
-	<button class="btn btn-sm btn-default">全不选</button>
+	<button class="btn btn-sm btn-primary" onclick="window.location.href='__MODULE__/User/user_add'">新增</button>
+	<button class="btn btn-sm btn-default" id="check_all">全选</button>
+	<button class="btn btn-sm btn-default" id="check_reverse">反选</button>
+	<button class="btn btn-sm btn-default" id="check_none">全不选</button>
 	<span style="margin: 0 10px;">对选中行进行</span>
-	<button class="btn btn-sm btn-danger">删除</button>
+	<button class="btn btn-sm btn-danger" id="check_del">删除</button>
 	<span style="margin-left: 50px">共</span>
-	<span style="font-size: 20px;color: red;"> 5 </span>
+	<span style="font-size: 20px;color: red;"> {$record} </span>
 	<span>条记录</span>
-	<span style="margin-left: 10px"> 1/2 </span>
-	<span>页</span>
+	<!--<span style="margin-left: 10px"> 1/2 </span>-->
+	<!--<span>页</span>-->
 </div>
+
+<script>
+	$("#check_all").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			if(!$(ele).is(":checked")){
+				$(ele).click();
+			}
+		});
+	});
+	$("#check_none").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			if($(ele).is(":checked")){
+				$(ele).click();
+			}
+		});
+	});
+	$("#check_reverse").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			$(ele).click();
+		});
+	});
+	$("#check_del").click(function () {
+		$("input[type=checkbox]").each(function (index,ele) {
+			if($(ele).is(":checked")){
+				$(ele).parent().parent().children().eq(8).children().eq(1).click();
+			}
+		});
+	});
+</script>
