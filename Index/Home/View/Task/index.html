@@ -1,21 +1,6 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Home-SamCRM</title>
 
-	<link rel="stylesheet" href="/SamCRM/Public/bs/css/bootstrap.css">
-
-	<script src="/SamCRM/Public/js/jquery.min.js"></script>
-	<script src="/SamCRM/Public/bs/js/bootstrap.min.js"></script>
-	<script src="/SamCRM/Public/js/holder.min.js"></script>
-	<script src="/SamCRM/Public/laydate/laydate.js"></script>
-</head>
-
-<body style="padding: 10px;">
-	
 <div class="top position" style="height: 30px; border-bottom: 1px solid #ccc;">
-	<img src="/SamCRM/Public/img/home/img/22.png" style="height: 20px;">
+	<img src="__PUBLIC__/img/home/img/22.png" style="height: 20px;">
 	<span style="vertical-align: middle; margin: 0 10px;">首页 > 任务管理 > 任务大厅</span>
 </div>
 
@@ -32,30 +17,34 @@
 			<td style="width: 11em;">发布日期</td>
 			<td style="width: 60px;">操作</td>
 		</tr>
-		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$l): $mod = ($i % 2 );++$i;?><tr>
+		<volist name='list' id='l'>
+		<tr>
 			<td><input type="checkbox"></td>
-			<td><?php echo ($l["id"]); ?></td>
-			<td><a href="/SamCRM/index.php/Home/Task/detail?id=<?php echo ($l["id"]); ?>" ><?php echo ($l["target"]); ?></a></td>
-			<td><?php echo ($l["project"]); ?></td>
-			<td><?php echo ($l["comment"]); ?></td>
+			<td>{$l.id}</td>
+			<td><a href="__MODULE__/Task/detail?id={$l.id}" >{$l.target}</a></td>
+			<td>{$l.project}</td>
+			<td>{$l.comment}</td>
 			<td>
-				<?php if($l["state"] == 0): ?><img src="/SamCRM/Public/img/home/yes.png" alt="">
-					<?php else: ?>
-					<img src="/SamCRM/Public/img/home/no.png" alt=""><?php endif; ?>
+				<if condition="$l.state eq 0">
+					<img src="__PUBLIC__/img/home/yes.png" alt="">
+					<else />
+					<img src="__PUBLIC__/img/home/no.png" alt="">
+				</if>
 			</td>
-			<td><?php echo ($l["publish_time"]); ?></td>
+			<td>{$l.publish_time}</td>
 			<td>
-				<a href="/SamCRM/index.php/Home/Task/accept?id=<?php echo ($l["id"]); ?>" class="edit"><img src="/SamCRM/Public/img/home/img/485.png"  style="height: 16px; margin-right: 5px;"></a>
-				<a href="/SamCRM/index.php/Home/User/user_detail?id=<?php echo ($l["id"]); ?>" class="edit"><img src="/SamCRM/Public/img/home/edit.png"  style="margin-right: 5px;"></a>
-				<a href="/SamCRM/index.php/Home/User/user_del?id=<?php echo ($l["id"]); ?>" class="del" onclick="if(confirm('确认删除？')){return true}else{return false}"><img src="/SamCRM/Public/img/home/delete.png" ></a>
+				<a href="__MODULE__/Task/accept?id={$l.id}" class="edit"><img src="__PUBLIC__/img/home/img/485.png"  style="height: 16px; margin-right: 5px;"></a>
+				<a href="__MODULE__/User/user_detail?id={$l.id}" class="edit"><img src="__PUBLIC__/img/home/edit.png"  style="margin-right: 5px;"></a>
+				<a href="__MODULE__/User/user_del?id={$l.id}" class="del" onclick="if(confirm('确认删除？')){return true}else{return false}"><img src="__PUBLIC__/img/home/delete.png" ></a>
 			</td>
-		</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+		</tr>
+		</volist>
 	</table>
 
 </div>
 
 <div class="buttom" style="position: absolute; bottom: 0;left: 10px; right: 10px; border-top: 1px solid #ccc; padding: 8px 0;">
-	<button class="btn btn-sm btn-primary" onclick="window.location.href='/SamCRM/index.php/Home/Task/add'">发布</button>
+	<button class="btn btn-sm btn-primary" onclick="window.location.href='__MODULE__/Task/add'">发布</button>
 	<button class="btn btn-sm btn-default" id="check_all">全选</button>
 	<button class="btn btn-sm btn-default" id="check_reverse">反选</button>
 	<button class="btn btn-sm btn-default" id="check_none">全不选</button>
@@ -63,7 +52,7 @@
 	<button class="btn btn-sm btn-success" id="check_accept">接受</button>
 	<button class="btn btn-sm btn-danger" id="check_del">删除</button>
 	<span style="margin-left: 50px">共</span>
-	<span style="font-size: 20px;color: red;"> <?php echo ($record); ?> </span>
+	<span style="font-size: 20px;color: red;"> {$record} </span>
 	<span>条记录</span>
 	<!--<span style="margin-left: 10px"> 1/2 </span>-->
 	<!--<span>页</span>-->
@@ -97,6 +86,3 @@
 		});
 	});
 </script>
-
-</body>
-</html>

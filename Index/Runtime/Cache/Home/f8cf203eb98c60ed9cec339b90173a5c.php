@@ -47,12 +47,31 @@
 				</ul>
 			</div>
 			<li class="list-group-item" >
-				<a href="#collapse2" data-toggle="collapse" style="display: block">button2</a>
+				<a href="#collapse2" data-toggle="collapse" style="display: block">
+					<img src="/SamCRM/Public/img/home/img/484.png" style="height: 20px;">
+					<span style="vertical-align: middle;margin-left: 5px;">任务管理</span>
+				</a>
 			</li>
 			<div id="collapse2" class="collapse">
 				<ul class="list-group" style="margin-bottom: 0px;">
-					<li class="list-group-item" style="padding-left: 40px;"><a href="">sub2_1</a></li>
-					<li class="list-group-item" style="padding-left: 40px; border-bottom: none""><a href="">sub2_2</a></li>
+					<li class="list-group-item" style="padding-left: 40px;">
+						<a onclick="$('#iframe').attr('src','/SamCRM/index.php/Home/Task/index');return false;" style="display: block">
+							<img src="/SamCRM/Public/img/home/img/486.png" style="height: 16px;">
+							<span style="vertical-align: middle;margin-left: 5px;">任务大厅</span>
+						</a>
+					</li>
+					<li class="list-group-item" style="padding-left: 40px;">
+						<a onclick="$('#iframe').attr('src','/SamCRM/index.php/Home/Task/add');return false;" style="display: block">
+							<img src="/SamCRM/Public/img/home/img/486.png" style="height: 16px;">
+							<span style="vertical-align: middle;margin-left: 5px;">发布任务</span>
+						</a>
+					</li>
+					<li class="list-group-item" style="padding-left: 40px;  border-bottom: none">
+						<a onclick="$('#iframe').attr('src','/SamCRM/index.php/Home/User/group');return false;" style="display: block">
+							<img src="/SamCRM/Public/img/home/img/485.png" style="height: 16px;">
+							<span style="vertical-align: middle;margin-left: 5px;">我的任务</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 			<li class="list-group-item" >
@@ -69,7 +88,7 @@
 							<span style="vertical-align: middle;margin-left: 5px;">全部</span>
 						</a>
 					</li>
-					<li class="list-group-item" style="padding-left: 40px; border-bottom: none"">
+					<li class="list-group-item" style="padding-left: 40px; border-bottom: none">
 						<a onclick="$('#iframe').attr('src','/SamCRM/index.php/Home/Client/add');return false;">
 							<img src="/SamCRM/Public/img/home/add.png" alt="">
 							<span style="vertical-align: middle;margin-left: 5px;">新增</span>
@@ -91,7 +110,7 @@
 							<span style="vertical-align: middle;margin-left: 5px;">全部</span>
 						</a>
 					</li>
-					<li class="list-group-item" style="padding-left: 40px; border-bottom: none"">
+					<li class="list-group-item" style="padding-left: 40px; border-bottom: none">
 						<a onclick="$('#iframe').attr('src','/SamCRM/index.php/Home/Tool/add');return false;">
 							<img src="/SamCRM/Public/img/home/add.png" alt="">
 							<span style="vertical-align: middle;margin-left: 5px;">新增</span>
@@ -119,7 +138,7 @@
 							<span style="vertical-align: middle;margin-left: 5px;">组管理</span>
 						</a>
 					</li>
-					<li class="list-group-item" style="padding-left: 40px; border-bottom: none"">
+					<li class="list-group-item" style="padding-left: 40px; border-bottom: none">
 						<a onclick="$('#iframe').attr('src','/SamCRM/index.php/Home/User/competence');return false;" style="display: block">
 							<img src="/SamCRM/Public/img/home/img/534.png" style="height: 16px;">
 							<span style="vertical-align: middle;margin-left: 5px;">权限管理</span>
