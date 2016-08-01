@@ -42,7 +42,9 @@
 			</li>
 			<div id="collapse1" class="collapse">
 				<ul class="list-group" style="margin-bottom: 0px;">
-					<li class="list-group-item" style="padding-left: 40px;"><a href="">sub1_1</a></li>
+					<li class="list-group-item" style="padding-left: 40px;">
+						<a onclick="$('#iframe').attr('src','/SamCRM/index.php/Home/Calculate/index');return false;">计算</a>
+					</li>
 					<li class="list-group-item" style="padding-left: 40px; border-bottom: none"><a href="">sub1_2</a></li>
 				</ul>
 			</div>
